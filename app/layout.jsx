@@ -5,10 +5,10 @@ import { Footer } from '../components/footer';
 export const metadata = {
     title: {
         template: '%s | M2 Property Services',
-        default: 'M2 Property Services | Premium Property Solutions',
+        default: 'M2 Property Services | Professional Cleaning & Maintenance',
     },
     description:
-        'M2 Property Services delivers premium property management, maintenance, and renovation solutions with unmatched professionalism and attention to detail.',
+        'M2 Property Services delivers professional cleaning, maintenance, and renovation services with unmatched professionalism and attention to detail.',
 };
 
 export default function RootLayout({ children }) {

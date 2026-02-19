@@ -16,8 +16,8 @@ export function Footer() {
                             className="h-16 w-auto"
                         />
                         <p className="text-neutral-400 text-sm leading-relaxed max-w-xs">
-                            Premium property services delivered with precision, professionalism, and an unwavering
-                            commitment to excellence.
+                            Professional cleaning and maintenance services delivered with precision, professionalism,
+                            and an unwavering commitment to excellence.
                         </p>
                     </div>
 
