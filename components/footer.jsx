@@ -13,7 +13,7 @@ export function Footer() {
                             alt="M2 Property Services"
                             width={80}
                             height={80}
-                            className="h-16 w-auto"
+                            className="h-16 w-auto self-start"
                         />
                         <p className="text-neutral-400 text-sm leading-relaxed max-w-xs">
                             Professional cleaning and maintenance services delivered with precision, professionalism,
