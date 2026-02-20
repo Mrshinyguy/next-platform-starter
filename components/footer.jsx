@@ -11,9 +11,9 @@ export function Footer() {
                         <Image
                             src="/images/m2-logo-dark.png"
                             alt="M2 Property Services"
-                            width={200}
-                            height={200}
-                            className="h-40 w-auto self-start"
+                            width={288}
+                            height={208}
+                            className="h-52 w-auto self-start"
                         />
                         <p className="text-neutral-400 text-sm leading-relaxed max-w-xs">
                             Professional cleaning and maintenance services delivered with precision, professionalism,

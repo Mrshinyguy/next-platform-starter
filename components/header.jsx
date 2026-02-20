@@ -15,7 +15,7 @@ export function Header() {
     const [mobileOpen, setMobileOpen] = useState(false);
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-neutral-100">
+        <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-neutral-100">
             <div className="flex items-center justify-between max-w-7xl mx-auto px-6 sm:px-12 py-4">
                 <Link href="/" className="flex items-center no-underline">
                     <Image
