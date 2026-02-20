@@ -21,9 +21,9 @@ export function Header() {
                     <Image
                         src="/images/m2-logo-light.png"
                         alt="M2 Property Services"
-                        width={82}
-                        height={58}
-                        className="h-12 w-auto"
+                        width={94}
+                        height={75}
+                        className="h-16 w-auto"
                     />
                 </Link>
 

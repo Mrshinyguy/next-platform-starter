@@ -7,14 +7,18 @@ export function Footer() {
             <div className="max-w-7xl mx-auto px-6 sm:px-12 py-16 sm:py-20">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
                     {/* Brand */}
-                    <div className="flex flex-col gap-6">
+                    <div className="flex flex-col gap-6 md:col-span-3">
                         <Image
                             src="/images/m2-logo-dark.png"
                             alt="M2 Property Services"
-                            width={288}
-                            height={208}
-                            className="h-52 w-auto self-start"
+                            width={384}
+                            height={277}
+                            className="h-72 w-auto self-start"
                         />
+                    </div>
+
+                    {/* Description */}
+                    <div>
                         <p className="text-neutral-400 text-sm leading-relaxed max-w-xs">
                             Professional cleaning and maintenance services delivered with precision, professionalism,
                             and an unwavering commitment to excellence.
