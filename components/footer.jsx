@@ -42,6 +42,14 @@ function LinkedInIcon({ className }) {
     );
 }
 
+function CanadianMapleLeaf({ className }) {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className={className}>
+            <path d="M256 16l28.8 96-38.4 25.6 57.6-9.6L288 192l64-38.4-16 57.6 80-28.8-48 64 96-16-73.6 48L448 307.2l-96-9.6 32 54.4-64-28.8 9.6 57.6-38.4-48L272 400l-16-67.2-38.4 48 9.6-57.6-64 28.8 32-54.4-96 9.6 57.6-28.8L83.2 230.4l96 16-48-64 80 28.8-16-57.6L256 192l-16-64 57.6 9.6-38.4-25.6L256 16zM224 400v96h64v-96" />
+        </svg>
+    );
+}
+
 export function Footer() {
     return (
         <footer className="bg-black text-white">
@@ -62,13 +70,7 @@ export function Footer() {
                         </p>
                         <p className="text-neutral-400 text-sm leading-relaxed max-w-xs flex items-center gap-2">
                             Proudly Canadian.
-                            <Image
-                                src="/images/leaf.png"
-                                alt="Maple leaf"
-                                width={40}
-                                height={40}
-                                className="w-10 h-10 shrink-0"
-                            />
+                            <CanadianMapleLeaf className="w-5 h-5 text-red-600 shrink-0" />
                         </p>
                     </div>
 
@@ -150,7 +152,7 @@ export function Footer() {
                     </div>
                 </div>
 
-                <div className="border-t border-neutral-800 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div className="border-t border-neutral-800 mt-8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
                     <p className="text-neutral-500 text-xs">
                         &copy; {new Date().getFullYear()} M2 Property Services. All rights reserved.
                     </p>
