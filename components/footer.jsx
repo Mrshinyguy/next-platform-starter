@@ -42,14 +42,6 @@ function LinkedInIcon({ className }) {
     );
 }
 
-function MapleLeafIcon({ className }) {
-    return (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className={className}>
-            <path d="M383.8 351.7c2.5-2.5 105.2-92.4 105.2-92.4l-17.5-7.5c-10-4.9-7.4-11.5-5-17.4 2.8-7.1 16.5-36 16.5-36l-35.5 9.1c-9 2.5-12.5-3.5-13.7-7.5l-17.5-49.9s-27.5 44.9-34.5 54.9c-4.9 7.1-10.5 1.5-12.5-3.5L356 174l-25 42.5c-3.5 5-8.5 9-16 2.5-7.5-6.5-37.5-37.5-37.5-37.5s-3-3.5-5.5 2l-9 20.5c-2 5-6.5 9-13.5 5L225 191.5l7.5 40.5c1.5 7-3 11-8 13.5l-48 22c4.5 1.5 82 34 82 34s5.5 2.5 0 8L229 339c-3.5 3.5 0 7.5 3.5 9l81 36.5s3.5 1.5 1 6L298 415l59-6.5c5-0.5 7.5 2 8.5 5.5l9.5 35.5 20-48.5c2.5-6 6-8.5 13-6.5l58 17-27-44.5c-3.5-5.5 0-9 5-12.5l39.8-3.3z M256 76l-19 56.5h-0.5L256 76zM256 76l19 56.5L256 76z" />
-        </svg>
-    );
-}
-
 export function Footer() {
     return (
         <footer className="bg-black text-white">
@@ -70,7 +62,13 @@ export function Footer() {
                         </p>
                         <p className="text-neutral-400 text-sm leading-relaxed max-w-xs flex items-center gap-2">
                             Proudly Canadian.
-                            <MapleLeafIcon className="w-5 h-5 text-red-600 shrink-0" />
+                            <Image
+                                src="/images/leaf.png"
+                                alt="Maple leaf"
+                                width={40}
+                                height={40}
+                                className="w-10 h-10 shrink-0"
+                            />
                         </p>
                     </div>
 
