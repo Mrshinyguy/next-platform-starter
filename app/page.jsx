@@ -57,7 +57,8 @@ export default function Page() {
         <>
             {/* Hero Section */}
             <section className="relative bg-black text-white min-h-screen flex items-center">
-                <div className="absolute inset-0 bg-gradient-to-br from-black via-neutral-900 to-black" />
+                <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80')" }} />
+                <div className="absolute inset-0 bg-black/60" />
                 <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-12 py-32 sm:py-40 w-full">
                     <div className="max-w-3xl">
                         <div className="gold-line mb-8" />
