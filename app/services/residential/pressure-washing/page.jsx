@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-  title: 'Pressure Washing | M2 Property Services',
+  title: 'Pressure Washing',
+  description: 'Professional pressure washing in Toronto and the GTA. Restore driveways, patios, siding, and fences with eco-friendly cleaning.',
+  alternates: { canonical: '/services/residential/pressure-washing' },
 };
 
 export default function PressureWashingPage() {

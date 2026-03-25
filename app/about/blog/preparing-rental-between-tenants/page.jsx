@@ -1,7 +1,11 @@
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'Preparing Your Rental Property Between Tenants | M2 Property Services',
+    title: 'Preparing Your Rental Property Between Tenants',
+    description: 'A complete guide to preparing your rental property between tenants. Covers deep cleaning, repairs, inspections, and turnover best practices.',
+    alternates: {
+        canonical: '/about/blog/preparing-rental-between-tenants',
+    },
 };
 
 export default function PreparingRentalPost() {

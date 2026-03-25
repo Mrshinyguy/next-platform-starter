@@ -1,7 +1,11 @@
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'Green Cleaning: Eco-Friendly Products That Actually Work | M2 Property Services',
+    title: 'Green Cleaning: Eco-Friendly Products That Actually Work',
+    description: 'Discover eco-friendly cleaning products that deliver real results. Learn how green cleaning protects your family and the environment without compromise.',
+    alternates: {
+        canonical: '/about/blog/green-cleaning-eco-friendly',
+    },
 };
 
 export default function GreenCleaningPost() {

@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Car Dealership Cleaning Services | M2 Property Services',
+    title: 'Car Dealership Cleaning Services',
+    description: 'Professional car dealership cleaning services in Toronto and the GTA. Showroom floor polishing, glass storefront cleaning, and service bay degreasing.',
+    alternates: { canonical: '/services/commercial/car-dealership-cleaning' },
 };
 
 const features = [

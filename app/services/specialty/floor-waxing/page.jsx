@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Floor Waxing Services | M2 Property Services',
+    title: 'Floor Waxing Services',
+    description: 'Professional floor waxing and polishing in Toronto. Strip-and-wax, buffing, and specialty coatings for commercial floors.',
+    alternates: { canonical: '/services/specialty/floor-waxing' },
 };
 
 export default function FloorWaxingPage() {

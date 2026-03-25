@@ -2,7 +2,9 @@ import Link from 'next/link';
 import { ContactForm } from '../../../components/contact-form';
 
 export const metadata = {
-    title: 'Reviews | M2 Property Services',
+    title: 'Reviews',
+    description: 'Read client reviews and testimonials for M2 Property Services. See why Toronto property owners trust us for cleaning and maintenance.',
+    alternates: { canonical: '/about/reviews' },
 };
 
 const stats = [

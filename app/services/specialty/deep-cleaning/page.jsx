@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Deep Cleaning Services | M2 Property Services',
+    title: 'Deep Cleaning Services',
+    description: 'Professional deep cleaning services in Toronto. Intensive cleaning for residential and commercial spaces by M2 Property Services.',
+    alternates: { canonical: '/services/specialty/deep-cleaning' },
 };
 
 export default function DeepCleaningPage() {

@@ -1,7 +1,9 @@
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'Blog | M2 Property Services',
+    title: 'Blog',
+    description: 'Cleaning tips, property maintenance advice, and industry insights from the M2 Property Services team in Toronto.',
+    alternates: { canonical: '/about/blog' },
 };
 
 const posts = [

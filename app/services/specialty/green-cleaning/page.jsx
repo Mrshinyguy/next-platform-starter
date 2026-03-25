@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Green Cleaning Services | M2 Property Services',
+    title: 'Green Cleaning Services',
+    description: 'Eco-friendly green cleaning services in Toronto. Plant-based products and sustainable practices for healthier spaces.',
+    alternates: { canonical: '/services/specialty/green-cleaning' },
 };
 
 export default function GreenCleaningPage() {

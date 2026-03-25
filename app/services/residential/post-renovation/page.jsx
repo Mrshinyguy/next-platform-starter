@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-  title: 'Post Renovation Cleaning | M2 Property Services',
+  title: 'Post Renovation Cleaning',
+  description: 'Post-renovation cleaning services in Toronto and the GTA. We remove construction dust, debris, and residue so you can enjoy your new space.',
+  alternates: { canonical: '/services/residential/post-renovation' },
 };
 
 export default function PostRenovationPage() {

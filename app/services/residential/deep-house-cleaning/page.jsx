@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-  title: 'Deep House Cleaning | M2 Property Services',
+  title: 'Deep House Cleaning',
+  description: 'Intensive deep house cleaning in Toronto and the GTA. We reach behind appliances, inside cabinets, and every overlooked corner.',
+  alternates: { canonical: '/services/residential/deep-house-cleaning' },
 };
 
 export default function DeepHouseCleaningPage() {

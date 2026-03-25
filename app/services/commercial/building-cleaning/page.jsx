@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Building Cleaning Services | M2 Property Services',
+    title: 'Building Cleaning Services',
+    description: 'Professional building cleaning services in Toronto and the GTA. Lobby maintenance, elevator and stairwell cleaning, and parking garage upkeep for commercial properties.',
+    alternates: { canonical: '/services/commercial/building-cleaning' },
 };
 
 const features = [

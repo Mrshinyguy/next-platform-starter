@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-  title: 'Deep Carpet Cleaning | M2 Property Services',
+  title: 'Deep Carpet Cleaning',
+  description: 'Professional deep carpet cleaning in Toronto and the GTA. Hot water extraction and stain treatment to remove dirt, allergens, and odors.',
+  alternates: { canonical: '/services/residential/deep-carpet-cleaning' },
 };
 
 export default function DeepCarpetCleaningPage() {

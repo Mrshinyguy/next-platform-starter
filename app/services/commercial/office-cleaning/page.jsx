@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Office Cleaning Services | M2 Property Services',
+    title: 'Office Cleaning Services',
+    description: 'Professional office cleaning services in Toronto and the GTA. Desk sanitization, floor care, restroom maintenance, and break room cleaning for your workplace.',
+    alternates: { canonical: '/services/commercial/office-cleaning' },
 };
 
 const features = [

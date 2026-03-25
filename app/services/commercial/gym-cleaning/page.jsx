@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Gym Cleaning Services | M2 Property Services',
+    title: 'Gym Cleaning Services',
+    description: 'Professional gym and fitness centre cleaning services in Toronto and the GTA. Equipment sanitization, locker room deep cleans, and shower maintenance.',
+    alternates: { canonical: '/services/commercial/gym-cleaning' },
 };
 
 const features = [

@@ -1,7 +1,11 @@
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'Why Toronto Businesses Are Investing in Professional Cleaning | M2 Property Services',
+    title: 'Why Toronto Businesses Are Investing in Professional Cleaning',
+    description: 'Find out why Toronto businesses are prioritizing professional cleaning services. Learn the ROI of cleaner workspaces for health, productivity, and image.',
+    alternates: {
+        canonical: '/about/blog/toronto-businesses-professional-cleaning',
+    },
 };
 
 export default function TorontoBusinessesCleaningPost() {

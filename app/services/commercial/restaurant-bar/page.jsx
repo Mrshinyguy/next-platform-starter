@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Restaurant & Bar Cleaning Services | M2 Property Services',
+    title: 'Restaurant & Bar Cleaning Services',
+    description: 'Professional restaurant and bar cleaning services in Toronto and the GTA. Kitchen deep cleans, hood and exhaust degreasing, and dining area sanitization.',
+    alternates: { canonical: '/services/commercial/restaurant-bar' },
 };
 
 const features = [

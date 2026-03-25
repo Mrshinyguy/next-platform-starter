@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-  title: 'Tile & Floor Cleaning | M2 Property Services',
+  title: 'Tile & Floor Cleaning',
+  description: 'Professional tile and floor cleaning in Toronto and the GTA. Grout restoration, stone polishing, and hardwood refinishing for every floor type.',
+  alternates: { canonical: '/services/residential/tile-floor-cleaning' },
 };
 
 export default function TileFloorCleaningPage() {

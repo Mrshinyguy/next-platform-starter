@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-  title: 'Standard House Cleaning | M2 Property Services',
+  title: 'Standard House Cleaning',
+  description: 'Professional standard house cleaning services in Toronto and the GTA. Regular cleaning to keep your home spotless and fresh.',
+  alternates: { canonical: '/services/residential/standard-house-cleaning' },
 };
 
 export default function StandardHouseCleaningPage() {

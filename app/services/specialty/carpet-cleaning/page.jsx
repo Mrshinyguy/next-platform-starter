@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Carpet Cleaning Services | M2 Property Services',
+    title: 'Carpet Cleaning Services',
+    description: 'Commercial-grade carpet cleaning in Toronto. Advanced extraction technology to remove stains and restore your carpets.',
+    alternates: { canonical: '/services/specialty/carpet-cleaning' },
 };
 
 export default function CarpetCleaningPage() {

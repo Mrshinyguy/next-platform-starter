@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Financial Institution Cleaning Services | M2 Property Services',
+    title: 'Financial Institution Cleaning Services',
+    description: 'Secure cleaning services for banks and financial institutions in Toronto and the GTA. Background-checked staff, lobby care, and ATM sanitization.',
+    alternates: { canonical: '/services/commercial/financial-institutions' },
 };
 
 const features = [

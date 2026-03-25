@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-  title: 'Window & Glass Cleaning | M2 Property Services',
+  title: 'Window & Glass Cleaning',
+  description: 'Professional window and glass cleaning in Toronto and the GTA. Streak-free interior and exterior cleaning for windows, doors, and skylights.',
+  alternates: { canonical: '/services/residential/window-glass-cleaning' },
 };
 
 export default function WindowGlassCleaningPage() {

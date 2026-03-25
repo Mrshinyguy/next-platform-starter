@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Daycare & School Cleaning Services | M2 Property Services',
+    title: 'Daycare & School Cleaning Services',
+    description: 'Child-safe cleaning services for daycares and schools in Toronto and the GTA. Non-toxic products, classroom sanitization, and playground cleanup.',
+    alternates: { canonical: '/services/commercial/daycare-school' },
 };
 
 const features = [

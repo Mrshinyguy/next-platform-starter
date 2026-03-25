@@ -1,7 +1,11 @@
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'How Often Should You Schedule Professional Cleaning? | M2 Property Services',
+    title: 'How Often Should You Schedule Professional Cleaning?',
+    description: 'Learn how often to schedule professional cleaning for your home or business. Find the right frequency based on property type, traffic, and needs.',
+    alternates: {
+        canonical: '/about/blog/how-often-professional-cleaning',
+    },
 };
 
 export default function HowOftenCleaningPost() {

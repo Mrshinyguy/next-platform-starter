@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Medical Facility Cleaning Services | M2 Property Services',
+    title: 'Medical Facility Cleaning Services',
+    description: 'Medical-grade cleaning services for healthcare facilities in Toronto and the GTA. Hospital-grade disinfection, biohazard handling, and exam room deep cleaning.',
+    alternates: { canonical: '/services/commercial/medical-facilities' },
 };
 
 const features = [

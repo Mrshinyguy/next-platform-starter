@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-  title: 'Move-in & Move-out Cleaning | M2 Property Services',
+  title: 'Move-in & Move-out Cleaning',
+  description: 'Professional move-in and move-out cleaning in Toronto and the GTA. Get your full deposit back or start fresh in a spotless home.',
+  alternates: { canonical: '/services/residential/move-in-move-out' },
 };
 
 export default function MoveInMoveOutPage() {

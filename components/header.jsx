@@ -178,6 +178,7 @@ export function Header() {
                         alt="M2 Property Services"
                         width={94}
                         height={75}
+                        priority
                         className="h-14 w-auto"
                     />
                 </Link>

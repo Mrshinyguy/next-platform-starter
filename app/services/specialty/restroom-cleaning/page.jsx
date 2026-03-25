@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Restroom Cleaning Services | M2 Property Services',
+    title: 'Restroom Cleaning Services',
+    description: 'Commercial restroom cleaning and sanitization in Toronto. Keep facilities hygienic and odor-free with M2 Property Services.',
+    alternates: { canonical: '/services/specialty/restroom-cleaning' },
 };
 
 export default function RestroomCleaningPage() {

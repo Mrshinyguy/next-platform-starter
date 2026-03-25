@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-  title: 'Dryer Vent Cleaning | M2 Property Services',
+  title: 'Dryer Vent Cleaning',
+  description: 'Professional dryer vent cleaning in Toronto and the GTA. Remove lint buildup, reduce fire risk, and restore dryer efficiency.',
+  alternates: { canonical: '/services/residential/dryer-vent-cleaning' },
 };
 
 export default function DryerVentCleaningPage() {

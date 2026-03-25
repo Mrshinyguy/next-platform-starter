@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Store Cleaning Services | M2 Property Services',
+    title: 'Store Cleaning Services',
+    description: 'Professional retail and store cleaning services in Toronto and the GTA. Floor polishing, display cleaning, fitting room sanitization, and entrance maintenance.',
+    alternates: { canonical: '/services/commercial/store-cleaning' },
 };
 
 const features = [

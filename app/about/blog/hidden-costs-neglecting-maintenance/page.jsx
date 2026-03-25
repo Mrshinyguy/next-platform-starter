@@ -1,7 +1,11 @@
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'The Hidden Costs of Neglecting Property Maintenance | M2 Property Services',
+    title: 'The Hidden Costs of Neglecting Property Maintenance',
+    description: 'Explore the hidden financial costs of neglecting property maintenance. Learn how regular upkeep protects your investment and prevents costly repairs.',
+    alternates: {
+        canonical: '/about/blog/hidden-costs-neglecting-maintenance',
+    },
 };
 
 export default function HiddenCostsMaintenancePost() {

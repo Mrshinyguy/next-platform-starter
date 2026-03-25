@@ -3,7 +3,9 @@ import { JoinTeamForm } from '../../../components/join-team-form';
 import { ScrollToApply } from '../../../components/scroll-to-apply';
 
 export const metadata = {
-    title: 'Join Our Team | M2 Property Services',
+    title: 'Join Our Team',
+    description: 'Explore career opportunities at M2 Property Services. Competitive pay, growth opportunities, and a supportive team in Toronto.',
+    alternates: { canonical: '/about/join-team' },
 };
 
 const benefits = [

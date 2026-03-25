@@ -1,7 +1,11 @@
 import Link from 'next/link';
 
 export const metadata = {
-    title: '10 Spring Cleaning Tips Every Homeowner Should Know | M2 Property Services',
+    title: '10 Spring Cleaning Tips Every Homeowner Should Know',
+    description: 'Discover 10 essential spring cleaning tips to refresh your home. From deep cleaning carpets to decluttering, get your property ready for the season.',
+    alternates: {
+        canonical: '/about/blog/spring-cleaning-tips',
+    },
 };
 
 export default function SpringCleaningTipsPost() {

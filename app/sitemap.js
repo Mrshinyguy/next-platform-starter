@@ -1,0 +1,53 @@
+const baseUrl = 'https://m2propertyservices.ca';
+
+export default function sitemap() {
+    const routes = [
+        '/',
+        '/about/our-story',
+        '/about/join-team',
+        '/about/reviews',
+        '/about/blog',
+        '/about/faq',
+        '/about/blog/spring-cleaning-tips',
+        '/about/blog/how-often-professional-cleaning',
+        '/about/blog/hidden-costs-neglecting-maintenance',
+        '/about/blog/preparing-rental-between-tenants',
+        '/about/blog/green-cleaning-eco-friendly',
+        '/about/blog/toronto-businesses-professional-cleaning',
+        '/services/commercial/office-cleaning',
+        '/services/commercial/store-cleaning',
+        '/services/commercial/building-cleaning',
+        '/services/commercial/medical-facilities',
+        '/services/commercial/car-dealership-cleaning',
+        '/services/commercial/financial-institutions',
+        '/services/commercial/gym-cleaning',
+        '/services/commercial/daycare-school',
+        '/services/commercial/restaurant-bar',
+        '/services/residential/standard-house-cleaning',
+        '/services/residential/deep-house-cleaning',
+        '/services/residential/move-in-move-out',
+        '/services/residential/post-renovation',
+        '/services/residential/airbnb-rental',
+        '/services/residential/deep-carpet-cleaning',
+        '/services/residential/window-glass-cleaning',
+        '/services/residential/pressure-washing',
+        '/services/residential/dryer-vent-cleaning',
+        '/services/residential/tile-floor-cleaning',
+        '/services/specialty/deep-cleaning',
+        '/services/specialty/carpet-cleaning',
+        '/services/specialty/pressure-washing',
+        '/services/specialty/floor-waxing',
+        '/services/specialty/graffiti-removal',
+        '/services/specialty/green-cleaning',
+        '/services/specialty/window-cleaning',
+        '/services/specialty/tile-floor-cleaning',
+        '/services/specialty/restroom-cleaning',
+    ];
+
+    return routes.map((route) => ({
+        url: `${baseUrl}${route}`,
+        lastModified: new Date(),
+        changeFrequency: route === '/' ? 'weekly' : 'monthly',
+        priority: route === '/' ? 1 : route.startsWith('/services') ? 0.8 : 0.6,
+    }));
+}

@@ -2,7 +2,9 @@ import Link from 'next/link';
 import { ContactForm } from '../../../components/contact-form';
 
 export const metadata = {
-    title: 'Our Story | M2 Property Services',
+    title: 'Our Story',
+    description: 'Learn about M2 Property Services — our mission, values, and commitment to quality property care across the Greater Toronto Area.',
+    alternates: { canonical: '/about/our-story' },
 };
 
 const values = [

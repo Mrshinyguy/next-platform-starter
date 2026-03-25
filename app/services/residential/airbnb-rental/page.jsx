@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-  title: 'Airbnb & Rental Cleaning | M2 Property Services',
+  title: 'Airbnb & Rental Cleaning',
+  description: 'Professional Airbnb and short-term rental cleaning in Toronto and the GTA. Fast turnovers, linen changes, and guest-ready inspections.',
+  alternates: { canonical: '/services/residential/airbnb-rental' },
 };
 
 export default function AirbnbRentalPage() {

@@ -1,7 +1,9 @@
 import { ServicePage } from '../../../../components/service-page';
 
 export const metadata = {
-    title: 'Graffiti Removal Services | M2 Property Services',
+    title: 'Graffiti Removal Services',
+    description: 'Fast and effective graffiti removal in Toronto. Surface-safe chemical treatments for brick, concrete, and metal surfaces.',
+    alternates: { canonical: '/services/specialty/graffiti-removal' },
 };
 
 export default function GraffitiRemovalPage() {
