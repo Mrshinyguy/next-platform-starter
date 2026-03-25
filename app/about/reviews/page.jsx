@@ -1,5 +1,10 @@
+import Image from 'next/image';
 import Link from 'next/link';
-import { ContactForm } from '../../../components/contact-form';
+import dynamic from 'next/dynamic';
+
+const ContactForm = dynamic(() => import('../../../components/contact-form').then(mod => mod.ContactForm), {
+    loading: () => <div className="h-64 animate-pulse bg-neutral-100" />,
+});
 
 export const metadata = {
     title: 'Reviews',
@@ -94,7 +99,15 @@ export default function ReviewsPage() {
         <>
             {/* Hero Section */}
             <section className="relative bg-black text-white min-h-[60vh] flex items-center">
-                <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1556745753-b2904692b3cd?w=1920&q=80)' }} />
+                <Image
+                    src="https://images.unsplash.com/photo-1556745753-b2904692b3cd?w=1920&q=80"
+                    alt="Satisfied customer"
+                    fill
+                    priority
+                    sizes="100vw"
+                    className="object-cover"
+                    quality={75}
+                />
                 <div className="absolute inset-0 bg-black/60" />
                 <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-12 py-32 sm:py-40 w-full">
                     <div className="max-w-3xl">

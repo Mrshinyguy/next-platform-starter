@@ -12,13 +12,8 @@ export default function HiddenCostsMaintenancePost() {
     return (
         <>
             {/* Hero */}
-            <section className="relative bg-black text-white min-h-[50vh] flex items-center">
-                <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80)' }}
-                />
-                <div className="absolute inset-0 bg-black/70" />
-                <div className="relative z-10 max-w-4xl mx-auto px-6 sm:px-12 py-32 sm:py-36 w-full">
+            <section className="bg-black text-white min-h-[50vh] flex items-center">
+                <div className="max-w-4xl mx-auto px-6 sm:px-12 py-32 sm:py-36 w-full">
                     <Link href="/about/blog" className="text-gold text-sm font-semibold uppercase tracking-widest mb-4 inline-flex items-center gap-2 no-underline hover:text-gold-light transition-colors">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
@@ -34,7 +29,7 @@ export default function HiddenCostsMaintenancePost() {
                     </h1>
                     <p className="text-neutral-400 text-sm uppercase tracking-widest">February 28, 2026</p>
                 </div>
-                <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
+                <div className="h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
             </section>
 
             {/* Article Content */}

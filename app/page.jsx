@@ -1,6 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ContactForm } from '../components/contact-form';
+import dynamic from 'next/dynamic';
+
+const ContactForm = dynamic(() => import('../components/contact-form').then(mod => mod.ContactForm), {
+    loading: () => <div className="h-64 animate-pulse bg-neutral-100" />,
+});
 
 const services = [
     {

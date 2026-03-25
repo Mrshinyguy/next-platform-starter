@@ -61,10 +61,8 @@ export default function BlogPage() {
     return (
         <>
             {/* Hero Section */}
-            <section className="relative bg-black text-white min-h-[60vh] flex items-center">
-                <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1920&q=80)' }} />
-                <div className="absolute inset-0 bg-black/60" />
-                <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-12 py-32 sm:py-40 w-full">
+            <section className="bg-black text-white min-h-[60vh] flex items-center">
+                <div className="max-w-7xl mx-auto px-6 sm:px-12 py-32 sm:py-40 w-full">
                     <div className="max-w-3xl">
                         <p className="text-gold text-sm font-semibold uppercase tracking-widest mb-4">
                             Insights
@@ -79,7 +77,7 @@ export default function BlogPage() {
                         </p>
                     </div>
                 </div>
-                <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
+                <div className="h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
             </section>
 
             {/* Blog Grid */}
