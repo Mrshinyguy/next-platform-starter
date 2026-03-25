@@ -7,7 +7,7 @@ export const metadata = {
 export default function WindowCleaningPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1527515637462-cee1395c20d3?w=1920&q=80"
+            heroImage="/images/window-cleaning-hero.jpg"
             subtitle="Specialty Cleaning"
             title="Window Cleaning"
             description="Crystal-clear windows transform the look and feel of any building. Our professional window cleaning team handles everything from ground-floor storefronts to multi-story commercial facades, removing hard water deposits, environmental film, and construction residue to let maximum natural light pour through."

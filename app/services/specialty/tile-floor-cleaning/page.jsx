@@ -7,7 +7,7 @@ export const metadata = {
 export default function TileFloorCleaningPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1603712725038-e9334ae8f39f?w=1920&q=80"
+            heroImage="/images/tile-cleaning-hero.jpg"
             subtitle="Specialty Cleaning"
             title="Tile & Floor Cleaning"
             description="Specialty tile and floor cleaning that goes beyond surface mopping to restore the original beauty of your hard floors. From grout line restoration and natural stone polishing to epoxy coating and long-term sealing, we deliver results that protect your flooring investment for years to come."

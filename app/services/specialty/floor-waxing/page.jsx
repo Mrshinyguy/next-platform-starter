@@ -7,7 +7,7 @@ export const metadata = {
 export default function FloorWaxingPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1920&q=80"
+            heroImage="/images/floor-waxing-hero.jpg"
             subtitle="Specialty Cleaning"
             title="Floor Waxing"
             description="Our professional floor waxing service delivers showroom-quality finishes that protect your investment and impress every visitor. We handle complete strip-and-wax cycles, routine buffing, and specialty coatings for VCT, concrete, and hardwood surfaces across commercial and institutional facilities."

@@ -7,7 +7,7 @@ export const metadata = {
 export default function CarpetCleaningPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1558317374-067fb5f30001?w=1920&q=80"
+            heroImage="/images/carpet-cleaning-hero.jpg"
             subtitle="Specialty Cleaning"
             title="Carpet Cleaning"
             description="Our commercial-grade carpet cleaning restores the look, feel, and hygiene of your flooring using advanced extraction technology and professional-strength treatments. From stubborn stains to high-traffic lane wear, we bring carpets back to life while extending their useful lifespan."

@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { ContactForm } from '../../../components/contact-form';
+import { JoinTeamForm } from '../../../components/join-team-form';
+import { ScrollToApply } from '../../../components/scroll-to-apply';
 
 export const metadata = {
     title: 'Join Our Team | M2 Property Services',
@@ -201,9 +202,9 @@ export default function JoinTeamPage() {
                                             </span>
                                         </div>
                                     </div>
-                                    <Link href="#apply" className="btn btn-outline shrink-0">
+                                    <ScrollToApply className="btn btn-outline shrink-0">
                                         Apply Now
-                                    </Link>
+                                    </ScrollToApply>
                                 </div>
                                 <p className="text-neutral-600 text-sm leading-relaxed mb-4">
                                     {position.description}
@@ -234,7 +235,7 @@ export default function JoinTeamPage() {
                         Send us a message with the position you are interested in and a
                         brief introduction. We will get back to you within 48 hours.
                     </p>
-                    <ContactForm />
+                    <JoinTeamForm />
                 </div>
             </section>
         </>

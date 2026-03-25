@@ -7,7 +7,7 @@ export const metadata = {
 export default function DryerVentCleaningPage() {
   return (
     <ServicePage
-      heroImage="https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?w=1920&q=80"
+      heroImage="/images/dryer-vent-hero.png"
       subtitle="Residential Cleaning"
       title="Dryer Vent Cleaning"
       description="Protect your home and family with professional dryer vent cleaning. Clogged dryer vents are one of the leading causes of house fires. Our service removes dangerous lint buildup, restores airflow efficiency, and ensures your dryer operates safely and at peak performance."

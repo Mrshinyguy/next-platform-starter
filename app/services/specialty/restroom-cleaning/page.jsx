@@ -7,7 +7,7 @@ export const metadata = {
 export default function RestroomCleaningPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=1920&q=80"
+            heroImage="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1920&q=80"
             subtitle="Specialty Cleaning"
             title="Restroom Cleaning"
             description="Commercial restrooms demand a higher standard of cleanliness. Our specialized restroom maintenance program combines deep sanitization, fixture restoration, and proactive supply management to keep your facilities hygienic, odor-free, and consistently presentable for employees and visitors alike."

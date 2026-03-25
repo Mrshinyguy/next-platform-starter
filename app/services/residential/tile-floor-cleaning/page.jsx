@@ -7,7 +7,7 @@ export const metadata = {
 export default function TileFloorCleaningPage() {
   return (
     <ServicePage
-      heroImage="https://images.unsplash.com/photo-1603712725038-e9334ae8f39f?w=1920&q=80"
+      heroImage="/images/tile-cleaning-hero.jpg"
       subtitle="Residential Cleaning"
       title="Tile & Floor Cleaning"
       description="Bring your floors back to life with our professional tile and floor cleaning service. From grimy grout lines to dull hardwood and worn vinyl, our specialized equipment and techniques restore the original beauty of every floor type in your home — without the risk of DIY damage."

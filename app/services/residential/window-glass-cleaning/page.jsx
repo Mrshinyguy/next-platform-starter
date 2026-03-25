@@ -7,7 +7,7 @@ export const metadata = {
 export default function WindowGlassCleaningPage() {
   return (
     <ServicePage
-      heroImage="https://images.unsplash.com/photo-1527515637462-cee1395c20d3?w=1920&q=80"
+      heroImage="/images/window-cleaning-hero.jpg"
       subtitle="Residential Cleaning"
       title="Window & Glass Cleaning"
       description="Let natural light flood your home with our professional window and glass cleaning service. We clean interior and exterior windows, glass doors, skylights, and screens — removing hard water stains, mineral deposits, and environmental buildup for a streak-free, crystal-clear finish."

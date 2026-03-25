@@ -1,15 +1,15 @@
 import Link from 'next/link';
 import { ContactForm } from './contact-form';
 
-export function ServicePage({ title, subtitle, description, features, process, benefits, ctaText, heroImage }) {
+export function ServicePage({ title, subtitle, description, features, process, benefits, ctaText, heroImage, heroPosition }) {
     return (
         <>
             {/* Hero */}
             <section className="relative bg-black text-white min-h-[70vh] flex items-center">
                 {heroImage && (
                     <div
-                        className="absolute inset-0 bg-cover bg-center"
-                        style={{ backgroundImage: `url(${heroImage})` }}
+                        className="absolute inset-0 bg-cover"
+                        style={{ backgroundImage: `url(${heroImage})`, backgroundPosition: heroPosition || 'center' }}
                     />
                 )}
                 <div className="absolute inset-0 bg-black/60" />

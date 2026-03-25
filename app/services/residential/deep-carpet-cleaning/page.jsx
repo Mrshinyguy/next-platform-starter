@@ -7,7 +7,7 @@ export const metadata = {
 export default function DeepCarpetCleaningPage() {
   return (
     <ServicePage
-      heroImage="https://images.unsplash.com/photo-1558317374-067fb5f30001?w=1920&q=80"
+      heroImage="/images/carpet-cleaning-hero.jpg"
       subtitle="Residential Cleaning"
       title="Deep Carpet Cleaning"
       description="Restore your carpets to like-new condition with our professional deep cleaning service. Using commercial-grade hot water extraction and targeted stain treatments, we remove embedded dirt, allergens, and odors that regular vacuuming leaves behind — extending your carpet's life and beauty."

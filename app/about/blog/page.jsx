@@ -7,6 +7,7 @@ export const metadata = {
 const posts = [
     {
         title: '10 Spring Cleaning Tips Every Homeowner Should Know',
+        slug: 'spring-cleaning-tips',
         date: 'March 15, 2026',
         category: 'Cleaning Tips',
         excerpt:
@@ -14,6 +15,7 @@ const posts = [
     },
     {
         title: 'How Often Should You Schedule Professional Cleaning?',
+        slug: 'how-often-professional-cleaning',
         date: 'March 8, 2026',
         category: 'Property Maintenance',
         excerpt:
@@ -21,6 +23,7 @@ const posts = [
     },
     {
         title: 'The Hidden Costs of Neglecting Property Maintenance',
+        slug: 'hidden-costs-neglecting-maintenance',
         date: 'February 28, 2026',
         category: 'Industry Insights',
         excerpt:
@@ -28,6 +31,7 @@ const posts = [
     },
     {
         title: 'Preparing Your Rental Property Between Tenants',
+        slug: 'preparing-rental-between-tenants',
         date: 'February 20, 2026',
         category: 'Property Management',
         excerpt:
@@ -35,6 +39,7 @@ const posts = [
     },
     {
         title: 'Green Cleaning: Eco-Friendly Products That Actually Work',
+        slug: 'green-cleaning-eco-friendly',
         date: 'February 12, 2026',
         category: 'Cleaning Tips',
         excerpt:
@@ -42,6 +47,7 @@ const posts = [
     },
     {
         title: 'Why Toronto Businesses Are Investing in Professional Cleaning',
+        slug: 'toronto-businesses-professional-cleaning',
         date: 'February 5, 2026',
         category: 'Industry Insights',
         excerpt:
@@ -114,7 +120,7 @@ export default function BlogPage() {
                                     </p>
 
                                     <Link
-                                        href="#"
+                                        href={`/about/blog/${post.slug}`}
                                         className="text-gold text-sm font-semibold uppercase tracking-widest hover:text-gold-light transition-colors inline-flex items-center gap-2 no-underline"
                                     >
                                         Read More
