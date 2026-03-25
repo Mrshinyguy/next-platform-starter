@@ -126,7 +126,7 @@ export default function JoinTeamPage() {
             {/* Hero Section */}
             <section className="relative bg-black text-white min-h-[60vh] flex items-center">
                 <Image
-                    src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1920&q=80"
+                    src="/images/join-team-hero.jpg"
                     alt="Professional handshake"
                     fill
                     priority

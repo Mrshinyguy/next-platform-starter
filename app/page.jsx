@@ -62,7 +62,7 @@ export default function Page() {
             {/* Hero Section */}
             <section className="relative bg-black text-white min-h-screen flex items-center">
                 <Image
-                    src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80"
+                    src="/images/hero-home.jpg"
                     alt="Modern property exterior"
                     fill
                     priority

@@ -99,7 +99,7 @@ const benefits = [
 export default function DaycareSchoolPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1920&q=80"
+            heroImage="/images/daycare-school-hero.jpg"
             title="Daycare & School Cleaning"
             subtitle="Educational Facility Services"
             description="Create a safe, healthy learning environment with cleaning services designed specifically for daycares and schools. Our child-safe products and specialized protocols protect students, staff, and the families who trust you with their children."

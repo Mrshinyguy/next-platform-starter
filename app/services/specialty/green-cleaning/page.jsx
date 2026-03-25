@@ -9,7 +9,7 @@ export const metadata = {
 export default function GreenCleaningPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1920&q=80"
+            heroImage="/images/green-cleaning-hero.jpg"
             subtitle="Specialty Cleaning"
             title="Green Cleaning"
             description="Our eco-friendly cleaning program delivers spotless results without compromising environmental responsibility. Using plant-based products, HEPA filtration, water conservation techniques, and sustainable practices, we help your facility meet green building standards while protecting occupant health."

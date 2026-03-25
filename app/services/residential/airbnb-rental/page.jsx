@@ -9,7 +9,7 @@ export const metadata = {
 export default function AirbnbRentalPage() {
   return (
     <ServicePage
-      heroImage="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1920&q=80"
+      heroImage="/images/airbnb-rental-hero.jpg"
       subtitle="Residential Cleaning"
       title="Airbnb & Rental Cleaning"
       description="Maximize your reviews and occupancy rates with our professional short-term rental cleaning service. We handle fast turnovers, linen changes, restocking, and guest-ready inspections so every guest walks into a flawless space — and you maintain Superhost status effortlessly."

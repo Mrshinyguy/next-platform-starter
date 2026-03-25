@@ -99,7 +99,7 @@ const benefits = [
 export default function OfficeCleaningPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"
+            heroImage="/images/office-cleaning-hero.jpg"
             title="Office Cleaning"
             subtitle="Commercial Cleaning Services"
             description="Keep your office spotless, healthy, and professional with our comprehensive office cleaning services. From daily maintenance to deep cleaning, we create workspaces your team is proud to work in."

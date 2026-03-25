@@ -9,7 +9,7 @@ export const metadata = {
 export default function StandardHouseCleaningPage() {
   return (
     <ServicePage
-      heroImage="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&q=80"
+      heroImage="/images/standard-house-cleaning-hero.jpg"
       subtitle="Residential Cleaning"
       title="Standard House Cleaning"
       description="Keep your home fresh, tidy, and welcoming with our reliable standard house cleaning service. Our trained professionals follow a comprehensive checklist to ensure every room in your home receives the attention it deserves, from dusting and vacuuming to kitchen and bathroom sanitization."

@@ -9,7 +9,7 @@ export const metadata = {
 export default function PostRenovationPage() {
   return (
     <ServicePage
-      heroImage="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80"
+      heroImage="/images/post-renovation-hero.jpg"
       subtitle="Residential Cleaning"
       title="Post Renovation Cleaning"
       description="Renovations transform your home but leave behind a mess that regular cleaning cannot handle. Our post-renovation cleaning service eliminates construction dust, debris, and residue so you can enjoy your newly upgraded space without the hassle of cleaning up after contractors."

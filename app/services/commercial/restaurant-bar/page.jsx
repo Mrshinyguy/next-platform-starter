@@ -99,7 +99,7 @@ const benefits = [
 export default function RestaurantBarPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&q=80"
+            heroImage="/images/restaurant-bar-hero.jpg"
             title="Restaurant & Bar Cleaning"
             subtitle="Food Service Cleaning Solutions"
             description="Keep your restaurant or bar spotless, safe, and inspection-ready with professional cleaning services built for the food service industry. From kitchen deep cleans and hood maintenance to dining room sanitization, we handle it all."

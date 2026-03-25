@@ -17,6 +17,7 @@ export function ServicePage({ title, subtitle, description, features, process, b
                         alt={title}
                         fill
                         priority
+                        fetchPriority="high"
                         sizes="100vw"
                         className="object-cover"
                         style={{ objectPosition: heroPosition || 'center' }}

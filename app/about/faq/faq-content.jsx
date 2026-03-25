@@ -114,7 +114,7 @@ export default function FAQContent() {
             {/* Hero Section */}
             <section className="relative bg-black text-white min-h-[60vh] flex items-center">
                 <Image
-                    src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=80"
+                    src="/images/faq-hero.jpg"
                     alt="Professional consultation"
                     fill
                     priority

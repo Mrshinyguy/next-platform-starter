@@ -9,7 +9,7 @@ export const metadata = {
 export default function DeepHouseCleaningPage() {
   return (
     <ServicePage
-      heroImage="https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?w=1920&q=80"
+      heroImage="/images/deep-house-cleaning-hero.jpg"
       subtitle="Residential Cleaning"
       title="Deep House Cleaning"
       description="Go beyond the surface with our intensive deep house cleaning service. We reach the hidden dirt, grime, and buildup that regular cleaning misses — behind appliances, inside cabinets, along baseboards, and in every overlooked corner of your home."

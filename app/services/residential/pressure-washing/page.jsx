@@ -20,7 +20,7 @@ export default function PressureWashingPage() {
           description: 'Oil stains, tire marks, dirt buildup, and algae growth on concrete and asphalt driveways and garage floors are eliminated, restoring a clean, uniform appearance.',
         },
         {
-          icon: '🪑',
+          icon: '🏖️',
           title: 'Patio & Deck Restoration',
           description: 'Wood, composite, stone, and concrete patios and decks are pressure washed to remove weathering, algae, moss, and stains, bringing back their original color and texture.',
         },

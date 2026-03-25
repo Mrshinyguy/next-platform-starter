@@ -94,7 +94,7 @@ const benefits = [
 export default function StoreCleaningPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1920&q=80"
+            heroImage="/images/store-cleaning-hero.jpg"
             title="Store Cleaning"
             subtitle="Retail Cleaning Services"
             description="Create a shopping experience your customers love with professional retail cleaning services. We keep your store spotless from the storefront to the stockroom, helping you drive sales and protect your brand."

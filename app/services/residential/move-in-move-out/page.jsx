@@ -9,7 +9,7 @@ export const metadata = {
 export default function MoveInMoveOutPage() {
   return (
     <ServicePage
-      heroImage="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1920&q=80"
+      heroImage="/images/move-in-move-out-hero.jpg"
       subtitle="Residential Cleaning"
       title="Move-in & Move-out Cleaning"
       description="Make your transition seamless with our comprehensive move-in and move-out cleaning service. Whether you are preparing a property for new tenants, ensuring you get your full deposit back, or moving into a fresh space, we leave every corner spotless and ready."

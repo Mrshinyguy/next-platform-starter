@@ -61,7 +61,7 @@ export default function OurStoryPage() {
             {/* Hero Section */}
             <section className="relative bg-black text-white min-h-[60vh] flex items-center">
                 <Image
-                    src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1920&q=80"
+                    src="/images/our-story-hero.jpg"
                     alt="Team collaboration"
                     fill
                     priority

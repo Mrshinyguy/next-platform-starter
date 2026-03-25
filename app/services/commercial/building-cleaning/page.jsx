@@ -14,13 +14,13 @@ const features = [
             'Your lobby sets the tone for every visitor. We keep reception areas, seating, flooring, and front desks immaculate with daily cleaning and periodic deep cleans.',
     },
     {
-        icon: '🛗',
+        icon: '🔼',
         title: 'Elevator Cleaning',
         description:
             'Elevators see hundreds of touches daily. We sanitize buttons, handrails, walls, floors, and tracks, removing fingerprints and grime to keep every ride fresh.',
     },
     {
-        icon: '🪜',
+        icon: '🚶',
         title: 'Stairwell Cleaning',
         description:
             'Stairwells collect dust, debris, and scuff marks quickly. We sweep, mop, and scrub stairs, landings, handrails, and walls to maintain safe, clean passageways.',
@@ -99,7 +99,7 @@ const benefits = [
 export default function BuildingCleaningPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80"
+            heroImage="/images/building-cleaning-hero.jpg"
             title="Building Cleaning"
             subtitle="Commercial Building Services"
             description="Comprehensive cleaning solutions for commercial buildings of any size. From lobbies and elevators to parking garages and exteriors, we keep your entire property in pristine condition for tenants and visitors alike."

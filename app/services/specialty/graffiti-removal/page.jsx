@@ -9,7 +9,7 @@ export const metadata = {
 export default function GraffitiRemovalPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1533745848184-3db07256e163?w=1920&q=80"
+            heroImage="/images/graffiti-removal-hero.jpg"
             subtitle="Specialty Cleaning"
             title="Graffiti Removal"
             description="Swift, professional graffiti removal that restores your property without a trace. Our technicians use surface-matched chemical treatments and precision pressure washing to eliminate vandalism from brick, concrete, metal, and painted surfaces while preserving the original finish underneath."

@@ -99,7 +99,7 @@ const benefits = [
 export default function MedicalFacilitiesPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1920&q=80"
+            heroImage="/images/medical-facilities-hero.jpg"
             title="Medical Facility Cleaning"
             subtitle="Healthcare Cleaning Services"
             description="Protect your patients and staff with medical-grade cleaning services designed for healthcare environments. Our certified teams follow strict infection control protocols to keep your facility safe, compliant, and spotless."

@@ -9,7 +9,7 @@ export const metadata = {
 export default function DeepCleaningPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?w=1920&q=80"
+            heroImage="/images/deep-cleaning-hero.jpg"
             subtitle="Specialty Cleaning"
             title="Deep Cleaning"
             description="Our deep cleaning service goes far beyond routine maintenance. Every surface is meticulously scrubbed, sanitized, and restored to like-new condition — from hidden corners behind furniture to air vents, light fixtures, and appliance interiors. Ideal for move-in/move-out transitions, post-renovation cleanup, or seasonal refreshes."

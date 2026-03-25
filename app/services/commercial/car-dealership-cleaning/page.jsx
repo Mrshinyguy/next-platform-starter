@@ -94,7 +94,7 @@ const benefits = [
 export default function CarDealershipCleaningPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=1920&q=80"
+            heroImage="/images/car-dealership-hero.jpg"
             title="Car Dealership Cleaning"
             subtitle="Automotive Facility Services"
             description="Make every vehicle shine with professional dealership cleaning services. From polished showroom floors and sparkling glass to degreased service bays, we help your dealership deliver the premium experience customers expect."

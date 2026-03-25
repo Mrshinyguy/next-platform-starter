@@ -94,7 +94,7 @@ const benefits = [
 export default function GymCleaningPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=80"
+            heroImage="/images/gym-cleaning-hero.jpg"
             title="Gym Cleaning"
             subtitle="Fitness Facility Services"
             description="Keep your gym fresh, sanitary, and member-ready with professional fitness facility cleaning. From equipment sanitization and locker room deep cleans to odor control, we help you maintain the clean environment your members deserve."

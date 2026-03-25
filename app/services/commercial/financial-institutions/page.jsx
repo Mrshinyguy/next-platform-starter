@@ -99,7 +99,7 @@ const benefits = [
 export default function FinancialInstitutionsPage() {
     return (
         <ServicePage
-            heroImage="https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1920&q=80"
+            heroImage="/images/financial-institutions-hero.jpg"
             title="Financial Institution Cleaning"
             subtitle="Banking & Financial Services"
             description="Trusted cleaning services for banks, credit unions, and financial offices. Our security-cleared teams deliver meticulous cleaning that upholds the professional standards and confidentiality your institution demands."
