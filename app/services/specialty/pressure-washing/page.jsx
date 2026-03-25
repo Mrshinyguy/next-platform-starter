@@ -7,7 +7,7 @@ export const metadata = {
 export default function PressureWashingPage() {
     return (
         <ServicePage
-            heroImage="/images/pressure-washing-hero.png"
+            heroImage="/images/pressure-washing-hero.jpg"
             subtitle="Specialty Cleaning"
             title="Pressure Washing"
             description="Our heavy-duty pressure washing service tackles the toughest exterior grime, restoring curb appeal and maintaining structural integrity. From oil-stained parking lots to weathered building facades, we use calibrated commercial equipment to clean every exterior surface safely and effectively."

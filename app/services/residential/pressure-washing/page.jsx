@@ -7,7 +7,7 @@ export const metadata = {
 export default function PressureWashingPage() {
   return (
     <ServicePage
-      heroImage="/images/pressure-washing-hero.png"
+      heroImage="/images/pressure-washing-hero.jpg"
       subtitle="Residential Cleaning"
       title="Pressure Washing"
       description="Revitalize your home's exterior surfaces with our professional pressure washing service. From driveways and patios to siding and fences, we blast away years of dirt, mold, mildew, and stains using calibrated pressure and eco-friendly detergents that protect your surfaces while delivering dramatic results."

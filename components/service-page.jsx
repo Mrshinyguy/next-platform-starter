@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { ContactForm } from './contact-form';
 
@@ -7,9 +8,15 @@ export function ServicePage({ title, subtitle, description, features, process, b
             {/* Hero */}
             <section className="relative bg-black text-white min-h-[70vh] flex items-center">
                 {heroImage && (
-                    <div
-                        className="absolute inset-0 bg-cover"
-                        style={{ backgroundImage: `url(${heroImage})`, backgroundPosition: heroPosition || 'center' }}
+                    <Image
+                        src={heroImage}
+                        alt={title}
+                        fill
+                        priority
+                        sizes="100vw"
+                        className="object-cover"
+                        style={{ objectPosition: heroPosition || 'center' }}
+                        quality={75}
                     />
                 )}
                 <div className="absolute inset-0 bg-black/60" />
