@@ -20,7 +20,7 @@ export default function DeepCleaningPage() {
                     description: 'Every countertop, shelf, baseboard, and ledge is hand-scrubbed using commercial-grade cleaning agents to eliminate built-up grime and residue.',
                 },
                 {
-                    icon: '🪟',
+                    icon: '🛋️',
                     title: 'Behind & Under Furniture',
                     description: 'We move furniture to reach neglected areas where dust, allergens, and debris accumulate over time, ensuring a truly thorough clean.',
                 },
