@@ -30,7 +30,7 @@ export default function MoveInMoveOutPage() {
           description: 'Walls are wiped down to remove scuff marks, fingerprints, and dust. Baseboards and trim are detailed to give the property a well-maintained appearance.',
         },
         {
-          icon: '🪟',
+          icon: '🔲',
           title: 'Window & Sill Cleaning',
           description: 'Interior windows are washed streak-free, window sills and tracks are vacuumed and scrubbed, and blinds or shutters are dusted and wiped.',
         },

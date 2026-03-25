@@ -32,7 +32,7 @@ const features = [
             'First impressions start at the door. We keep entrances, vestibules, door handles, and welcome mats clean, removing dirt and debris that customers track inside.',
     },
     {
-        icon: '🪟',
+        icon: '🔲',
         title: 'Window & Storefront Displays',
         description:
             'Crystal-clear windows and pristine display cases attract foot traffic. We provide streak-free cleaning of all glass surfaces including storefront windows and showcases.',

@@ -30,7 +30,7 @@ export default function FloorWaxingPage() {
                     description: 'Vinyl composition tile in healthcare, education, and retail facilities receives specialized care including spray buffing, scrub-and-recoat, and full restoration.',
                 },
                 {
-                    icon: '🪨',
+                    icon: '🏗️',
                     title: 'Concrete Sealing & Polish',
                     description: 'Warehouse and retail concrete floors are sealed, densified, and polished to create durable, low-maintenance surfaces with a professional sheen.',
                 },

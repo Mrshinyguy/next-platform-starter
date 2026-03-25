@@ -25,7 +25,7 @@ export default function DeepHouseCleaningPage() {
           description: 'Oven interiors are degreased and scrubbed, while refrigerators are emptied, shelves are cleaned, and drawers are sanitized to eliminate odors and bacteria.',
         },
         {
-          icon: '🪣',
+          icon: '🧹',
           title: 'Baseboard & Trim Detailing',
           description: 'Every baseboard, door frame, and trim piece is hand-wiped to remove built-up dust and scuff marks, giving your rooms a polished, finished look.',
         },

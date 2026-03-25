@@ -30,7 +30,7 @@ export default function TileFloorCleaningPage() {
           description: 'Marble, granite, travertine, and slate floors are cleaned with pH-appropriate solutions and polished to restore their natural luster without etching or dulling the surface.',
         },
         {
-          icon: '🪵',
+          icon: '🏠',
           title: 'Hardwood Floor Care',
           description: 'Hardwood floors are cleaned with wood-safe solutions, buffed to remove scuffs and light scratches, and conditioned to protect the finish and enhance the natural grain.',
         },

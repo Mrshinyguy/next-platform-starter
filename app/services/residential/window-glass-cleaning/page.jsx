@@ -15,7 +15,7 @@ export default function WindowGlassCleaningPage() {
       description="Let natural light flood your home with our professional window and glass cleaning service. We clean interior and exterior windows, glass doors, skylights, and screens — removing hard water stains, mineral deposits, and environmental buildup for a streak-free, crystal-clear finish."
       features={[
         {
-          icon: '🪟',
+          icon: '🔲',
           title: 'Interior & Exterior Windows',
           description: 'Both sides of every window are cleaned using professional squeegee techniques and purified water systems for a perfectly streak-free, spotless result every time.',
         },

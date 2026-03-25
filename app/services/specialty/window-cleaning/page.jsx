@@ -20,7 +20,7 @@ export default function WindowCleaningPage() {
                     description: 'Water-fed pole systems reaching up to 60 feet and rope-access technicians allow us to clean windows on multi-story commercial buildings safely and efficiently.',
                 },
                 {
-                    icon: '🪟',
+                    icon: '🔲',
                     title: 'Interior & Exterior Cleaning',
                     description: 'Both sides of every window are cleaned using streak-free techniques, including sills, tracks, and frames for a complete, detailed result.',
                 },

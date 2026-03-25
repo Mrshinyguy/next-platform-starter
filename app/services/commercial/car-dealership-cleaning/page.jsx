@@ -14,7 +14,7 @@ const features = [
             'High-gloss showroom floors make vehicles shine. We strip, seal, and polish concrete, tile, and epoxy flooring to deliver a mirror-like finish that highlights every car on display.',
     },
     {
-        icon: '🪟',
+        icon: '🔲',
         title: 'Glass Storefront Cleaning',
         description:
             'Floor-to-ceiling glass panels and storefront windows are cleaned inside and out to a streak-free finish, maximizing visibility and drawing customers in from the street.',

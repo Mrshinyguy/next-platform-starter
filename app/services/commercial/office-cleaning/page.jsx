@@ -32,7 +32,7 @@ const features = [
             'Professional vacuuming, mopping, buffing, and carpet care for all flooring types. We maintain pristine floors that reflect your company\'s professional image.',
     },
     {
-        icon: '🪟',
+        icon: '🔲',
         title: 'Interior Window Cleaning',
         description:
             'Streak-free cleaning of interior glass surfaces, windows, partitions, and glass doors to maximize natural light and maintain a bright, welcoming workspace.',

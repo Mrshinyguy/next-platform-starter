@@ -40,7 +40,7 @@ export default function PressureWashingPage() {
           description: 'Front walkways, garden paths, and steps are cleaned to remove slippery algae and moss growth, improving both the look and safety of your property.',
         },
         {
-          icon: '🪴',
+          icon: '🌿',
           title: 'Outdoor Furniture & Features',
           description: 'Patio furniture, retaining walls, stone features, planters, and other outdoor items are carefully pressure washed to remove seasonal buildup and restore their finish.',
         },
