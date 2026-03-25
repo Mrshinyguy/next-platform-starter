@@ -69,6 +69,16 @@ export function JoinTeamForm() {
                     type="tel"
                     id="phone"
                     name="phone"
+                    inputMode="numeric"
+                    pattern="[0-9]*"
+                    onKeyDown={(e) => {
+                        if (!/[0-9]/.test(e.key) && !['Backspace', 'Delete', 'Tab', 'ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(e.key)) {
+                            e.preventDefault();
+                        }
+                    }}
+                    onInput={(e) => {
+                        e.target.value = e.target.value.replace(/[^0-9]/g, '');
+                    }}
                     className="w-full px-4 py-3 border border-neutral-300 text-neutral-900 text-sm focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold transition-colors"
                     placeholder="Your phone number"
                 />
