@@ -58,7 +58,21 @@
       "Bash(where.exe npx:*)",
       "Bash(cmd.exe /c \"where node && where npm\")",
       "Bash(powershell.exe -Command \"Get-ChildItem -Path ''C:\\\\'' -Filter ''node.exe'' -Recurse -Depth 4 -ErrorAction SilentlyContinue | Select-Object -First 5 -ExpandProperty FullName\")",
-      "Bash(find 'E:/M2 Property Services/bomboclaat' -not -path */node_modules/* -not -path */.git/* -not -path */.next/* -type f)"
+      "Bash(find 'E:/M2 Property Services/bomboclaat' -not -path */node_modules/* -not -path */.git/* -not -path */.next/* -type f)",
+      "Bash(cp \"E:\\\\M2 Property Services\\\\Misc\\\\Hotsy_Pressure_Washer_PSI_vs_GPM.jpg\" \"E:\\\\M2 Property Services\\\\bomboclaat\\\\public\\\\images\\\\pressure-washing-hero.jpg\")",
+      "Bash(cp \"E:\\\\M2 Property Services\\\\Misc\\\\Floor-Waxing-jpeg-1200x723.jpg\" \"E:\\\\M2 Property Services\\\\bomboclaat\\\\public\\\\images\\\\floor-waxing-hero.jpg\")",
+      "Bash(cp \"E:\\\\M2 Property Services\\\\Misc\\\\GettyImages-2180759238-b72c3ddb04ba4a2bb9e8039b005d39d9.png\" \"E:\\\\M2 Property Services\\\\bomboclaat\\\\public\\\\images\\\\pressure-washing-hero.png\")",
+      "Bash(cp \"E:\\\\M2 Property Services\\\\Misc\\\\clean-window-1-scaled.jpg\" \"E:\\\\M2 Property Services\\\\bomboclaat\\\\public\\\\images\\\\window-cleaning-hero.jpg\")",
+      "Bash(cp \"E:\\\\M2 Property Services\\\\Misc\\\\5-1.jpg\" \"E:\\\\M2 Property Services\\\\bomboclaat\\\\public\\\\images\\\\carpet-cleaning-hero.jpg\")",
+      "Bash(cp \"E:\\\\M2 Property Services\\\\Misc\\\\Tile_Grout_Cleaning_1920_1080.jpg\" \"E:\\\\M2 Property Services\\\\bomboclaat\\\\public\\\\images\\\\tile-cleaning-hero.jpg\")",
+      "Bash(rm public/images/pressure-washing-hero.png)",
+      "Bash(mv public/images/pressure-washing-hero-opt.jpg public/images/pressure-washing-hero.jpg)",
+      "Bash(npx sharp-cli:*)",
+      "Bash(mv public/images/carpet-cleaning-hero-opt.jpg public/images/carpet-cleaning-hero.jpg)",
+      "Bash(npm i:*)",
+      "Bash(npm run:*)",
+      "Bash(npx agent-browser:*)",
+      "Bash(taskkill //F //IM node.exe)"
     ]
   }
 }
