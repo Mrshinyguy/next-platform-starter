@@ -13,7 +13,7 @@ export function ContextAlert(props) {
 
     let markdownText = null;
     if (!ctx) {
-        markdownText = noNetlifyContextAlert;
+    markdownText = null;
     } else if (addedChecksFunction) {
         markdownText = addedChecksFunction(ctx);
     }
