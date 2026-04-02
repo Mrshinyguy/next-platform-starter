@@ -12,10 +12,9 @@ export function ContactForm() {
             setStatus('pending');
             setError(null);
             const formData = new FormData(event.target);
-            const res = await fetch('/__forms.html', {
+            const res = await fetch('/api/contact', {
                 method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(formData).toString(),
+                body: formData,
             });
             if (res.status === 200) {
                 setStatus('ok');
@@ -32,7 +31,6 @@ export function ContactForm() {
 
     return (
         <form className="text-left space-y-6 max-w-lg mx-auto" name="contact" onSubmit={handleSubmit}>
-            <input type="hidden" name="form-name" value="contact" />
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                     <label htmlFor="name" className="block text-sm font-medium text-neutral-700 mb-2">
