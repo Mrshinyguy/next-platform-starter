@@ -81,7 +81,7 @@ export default function Page() {
                         </h1>
                         <p className="text-lg sm:text-xl text-neutral-300 mb-10 max-w-xl leading-relaxed">
                             We provide professional cleaning, maintenance and renovation.
-                            All our services are delivered with the utmost precision and professionalism.
+                            All our services are delivered with the utmost precision and professionalism. Operating in Toronto and the GTA.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link href="#services" className="btn btn-gold">
