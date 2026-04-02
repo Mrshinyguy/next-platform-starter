@@ -79,7 +79,7 @@ export default function Page() {
                             Elevating Property <br />
                             <span className="text-gold">Standards</span>
                         </h1>
-                        <p className="text-lg sm:text-xl text-neutral-300 mb-10 max-w-xl leading-relaxed">
+                        <p className="text-sm sm:text-base text-neutral-300 mb-10 max-w-sm leading-relaxed bg-black/40 px-5 py-4 backdrop-blur-sm">
                             We provide professional cleaning, maintenance and renovation.
                             All our services are delivered with the utmost precision and professionalism. Operating in Toronto and the GTA.
                         </p>
